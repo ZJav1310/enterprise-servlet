@@ -4,7 +4,6 @@ import Controllers.Commands;
 import Models.Film;
 
 import javax.xml.parsers.ParserConfigurationException;
-import java.sql.SQLException;
 import java.util.Collection;
 
 public class CommandsBridge {
@@ -13,7 +12,7 @@ public class CommandsBridge {
     public CommandsBridge(){
         try {
             commands = new Commands();
-        } catch (ParserConfigurationException | SQLException e) {
+        } catch (ParserConfigurationException e) {
             throw new RuntimeException(e);
         }
     }
