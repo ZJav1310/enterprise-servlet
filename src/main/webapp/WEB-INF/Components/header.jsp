@@ -10,7 +10,7 @@
     <!-- Container wrapper -->
     <div class="container">
         <!-- Navbar brand -->
-        <a>
+        <a href="index.jsp">
             <h1>HELLO</h1>
         </a>
 
