@@ -5,6 +5,7 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 
 <%
+
     List<Film> films;
     films = (List<Film>) new CommandsBridge().getAllFilms();
     request.setAttribute("allFilms", films);

@@ -9,13 +9,14 @@ import java.util.Collection;
 public class CommandsBridge {
     private final Commands commands;
 
-    public CommandsBridge(){
+    public CommandsBridge() {
         try {
             commands = new Commands();
         } catch (ParserConfigurationException e) {
             throw new RuntimeException(e);
         }
     }
+
     public int insertFilm(String title, int year, String director, String stars, String review) {
         return commands.insertFilm(new Film(title, year, director, stars, review));
     }
