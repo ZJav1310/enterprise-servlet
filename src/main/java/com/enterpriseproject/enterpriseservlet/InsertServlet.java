@@ -16,6 +16,7 @@ public class InsertServlet extends HttpServlet {
 
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+
         String title = request.getParameter("title");
         String director = request.getParameter("director");
         String stars = request.getParameter("stars");

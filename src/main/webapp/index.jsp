@@ -13,6 +13,7 @@
 %>
 <!DOCTYPE html>
 <html>
+<jsp:include page="/HomeServlet" flush="true" />
 
 <%@ include file="WEB-INF/Components/header.jsp" %>
 
