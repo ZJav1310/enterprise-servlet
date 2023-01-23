@@ -6,6 +6,9 @@ import Models.Film;
 import javax.xml.parsers.ParserConfigurationException;
 import java.util.Collection;
 
+/**
+ * Abstraction layer for Commands in the core project.
+ */
 public class CommandsBridge {
     private final Commands commands;
 
